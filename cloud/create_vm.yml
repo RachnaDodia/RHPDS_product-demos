@@ -5,7 +5,7 @@
   vars:
     vm_name: rhel8
     vm_owner: undef
-    vm_provider: undef
+    vm_provider: aws
     vm_blueprint: rhel8
 
   tasks:
