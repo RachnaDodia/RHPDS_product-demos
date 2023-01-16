@@ -11,7 +11,7 @@
   tasks:
   - name: "Importing {{ vm_blueprint | upper }} Blueprint"
     include_vars:
-      file: "/home/student/blueprints/{{ vm_blueprint }}.yml"
+      file: "blueprints/{{ vm_blueprint }}.yml"
 
   - name: "Check Provider Compatibility"
     assert:
