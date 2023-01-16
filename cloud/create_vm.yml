@@ -3,10 +3,10 @@
   hosts: localhost
   gather_facts: no
   vars:
-    vm_name: undef
+    vm_name: rhel8
     vm_owner: undef
     vm_provider: undef
-    vm_blueprint: undef
+    vm_blueprint: rhel8
 
   tasks:
   - name: "Importing {{ vm_blueprint | upper }} Blueprint"
